@@ -3,8 +3,10 @@
     box-sizing: border-box;
     font-size: 16px;
 }
-/* styles for mobile first approach*/
+/* styles for mobile first approach */
+
 html {
+    /* allows the scroll effect to be smooth*/
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -246,7 +248,6 @@ button {
 
 .btn-grp {
     display: grid;
-    
     justify-content: center;
 }
 
@@ -354,7 +355,7 @@ i {
     border-radius: 0 3px 3px 0;
     user-select: none;
     top: 50%;
-    right: 470px;
+    right: 505px;
   }
   
   /* Position the "next button" to the right */
@@ -436,6 +437,7 @@ i {
         line-height: 3rem;
         
     }
+    
 }
 
 
