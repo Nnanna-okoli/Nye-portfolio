@@ -6,7 +6,7 @@ function myFunction() {
     let person = prompt("Hey there, whats your name?", );
     if (person != null) {
       document.getElementById("name").innerHTML =
-      ` ${person},`;
+      `${person},`;
     }
   }
 
