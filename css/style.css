@@ -516,6 +516,7 @@ i {
   #name,
   .color-name {
       font-size: 3rem;
+      line-height: 1.3em;
   }
 
   .item2 {

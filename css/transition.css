@@ -1,0 +1,19 @@
+#header {
+    animation: transitionIn 4000ms;
+}
+
+#know-more {
+    animation: transitionIn 5000ms;
+
+}
+
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
