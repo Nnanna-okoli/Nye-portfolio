@@ -1,19 +1,14 @@
-#header {
-    animation: transitionIn 4000ms;
-}
+/* reveal for the sections to be animated
+ active for when its activated */
 
-#know-more {
-    animation: transitionIn 5000ms;
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
 
-}
-
-
-@keyframes transitionIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
+  .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+  }

@@ -97,14 +97,14 @@ svg {
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .color-name {
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #a7acd9;
     
 }
@@ -401,10 +401,7 @@ i {
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
+
   /* Fading animation */
   .fade {
     animation-name: fade;
